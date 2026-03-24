@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: "Muhammad Hassam Mujahid — Software Engineer",
   description:
     "Software Engineer specializing in MERN stack, cloud architecture, and performance engineering. Building scalable systems for 50K+ daily users.",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   keywords: [
     "Software Engineer",
     "MERN Stack",
@@ -16,7 +21,12 @@ export const metadata: Metadata = {
     "Full Stack Developer",
     "Muhammad Hassam Mujahid",
   ],
-  authors: [{ name: "Muhammad Hassam Mujahid", url: "https://github.com/mhasammujahid" }],
+  authors: [
+    {
+      name: "Muhammad Hassam Mujahid",
+      url: "https://github.com/mhasammujahid",
+    },
+  ],
   openGraph: {
     title: "Muhammad Hassam Mujahid — Software Engineer",
     description:
