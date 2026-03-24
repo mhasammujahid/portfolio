@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #f5f2ed;
+    --bg-secondary: #ede9e2;
+    --bg-card: #ffffff;
+    --text-primary: #1a1814;
+    --text-secondary: #5a5650;
+    --text-muted: #9a9590;
+    --accent: #c17f3a;
+    --accent-light: #e8a85a;
+    --accent-subtle: #f5e6d0;
+    --border: #ddd9d2;
+    --border-strong: #c5c0b8;
+    --glow: rgba(193, 127, 58, 0.15);
+    --shadow: 0 4px 24px rgba(26, 24, 20, 0.08);
+    --shadow-lg: 0 8px 48px rgba(26, 24, 20, 0.12);
+  }
+
+  .dark {
+    --bg: #0d0c0a;
+    --bg-secondary: #141210;
+    --bg-card: #181614;
+    --text-primary: #f0ece5;
+    --text-secondary: #a09890;
+    --text-muted: #6a6460;
+    --accent: #d4925a;
+    --accent-light: #e8b07a;
+    --accent-subtle: #2a1e12;
+    --border: #2a2622;
+    --border-strong: #3a3530;
+    --glow: rgba(212, 146, 90, 0.12);
+    --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 48px rgba(0, 0, 0, 0.6);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: "Outfit", sans-serif;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-strong);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: "DM Serif Display", serif;
+  }
+  .font-mono-custom {
+    font-family: "DM Mono", monospace;
+  }
+}
