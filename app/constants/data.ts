@@ -23,6 +23,7 @@ export const HERO = {
   email: "mhassammuj@gmail.com",
   githubUrl: "https://github.com/mhasammujahid",
   linkedinUrl: "https://linkedin.com/in/mhassammujahid",
+  resumeUrl: "/Muhammad_Hassam_Mujahid_Resume_3.pdf",
 };
 
 export const ABOUT = {
