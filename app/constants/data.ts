@@ -183,6 +183,27 @@ export const PROJECTS: Project[] = [
       "Paginated review history dashboard with per-language stats",
     ],
   },
+  {
+    title: "shortify — URL Shortener",
+    description:
+      "A production-ready URL shortener where developers paste a long URL and instantly get a shareable short link. Supports custom slugs, tracks click counts per link, and persists all data in a serverless PostgreSQL database via Neon. The backend runs Prisma migrations automatically on startup. The entire app is containerized with a multi-stage Docker build for a minimal, deploy-anywhere image.",
+    techStack: [
+      "Next.js 14",
+      "TypeScript",
+      "Prisma",
+      "Neon PostgreSQL",
+      "Docker",
+      "Tailwind CSS",
+    ],
+    duration: "2025",
+    githubUrl: "https://github.com/mhasammujahid",
+    highlights: [
+      "Custom slug support with conflict detection and a 409 error response",
+      "Click tracking per short link with a paginated history dashboard",
+      "Multi-stage Docker build with alpine base and Next.js standalone output for minimal image size",
+      "Auto-runs Prisma migrations on container startup — zero manual DB setup",
+    ],
+  },
 ];
 
 export const AWARDS: Award[] = [
