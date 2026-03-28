@@ -176,7 +176,7 @@ export const PROJECTS: Project[] = [
       "Docker",
       "Tailwind CSS",
     ],
-    duration: "2025",
+    duration: "2026",
     githubUrl: "https://github.com/mhasammujahid",
     highlights: [
       "Auto-runs ESLint or Flake8 on the backend — no client-side tooling needed",
@@ -197,7 +197,7 @@ export const PROJECTS: Project[] = [
       "Docker",
       "Tailwind CSS",
     ],
-    duration: "2025",
+    duration: "2026",
     githubUrl: "https://github.com/mhasammujahid",
     highlights: [
       "Custom slug support with conflict detection and a 409 error response",
