@@ -131,8 +131,7 @@ export const PROJECTS: Project[] = [
     ],
     duration: "Feb 2025 – Present",
     githubUrl: "https://github.com/mhasammujahid",
-
-    websiteUrl: "",
+    websiteUrl: "https://lets-connect-ten.vercel.app/",
     highlights: [
       "Google Calendar API integration for real-time availability sync",
       "Automated Zoom meeting generation on booking confirmation",
@@ -192,7 +191,7 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    title: "shortify — URL Shortener",
+    title: "Shortify — URL Shortener",
     description:
       "A production-ready URL shortener where developers paste a long URL and instantly get a shareable short link. Supports custom slugs, tracks click counts per link, and persists all data in a serverless PostgreSQL database via Neon. The backend runs Prisma migrations automatically on startup. The entire app is containerized with a multi-stage Docker build for a minimal, deploy-anywhere image.",
     techStack: [
