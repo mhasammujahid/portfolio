@@ -131,6 +131,8 @@ export const PROJECTS: Project[] = [
     ],
     duration: "Feb 2025 – Present",
     githubUrl: "https://github.com/mhasammujahid",
+
+    websiteUrl: "",
     highlights: [
       "Google Calendar API integration for real-time availability sync",
       "Automated Zoom meeting generation on booking confirmation",
@@ -152,6 +154,8 @@ export const PROJECTS: Project[] = [
     ],
     duration: "Sep 2022 – May 2023",
     githubUrl: "https://github.com/mhasammujahid",
+
+    websiteUrl: "",
     highlights: [
       "Real-time package tracking with geolocation APIs",
       "Route optimization algorithms for delivery efficiency",
@@ -179,6 +183,7 @@ export const PROJECTS: Project[] = [
     ],
     duration: "2026",
     githubUrl: "https://github.com/mhasammujahid",
+    websiteUrl: "https://code-lens-five.vercel.app/",
     highlights: [
       "Auto-runs ESLint or Flake8 on the backend — no client-side tooling needed",
       "Dual review modes: rule-based Linter and semantic Claude AI analysis",
@@ -200,6 +205,7 @@ export const PROJECTS: Project[] = [
     ],
     duration: "2026",
     githubUrl: "https://github.com/mhasammujahid",
+    websiteUrl: "https://shortify-pi-fawn.vercel.app/",
     highlights: [
       "Custom slug support with conflict detection and a 409 error response",
       "Click tracking per short link with a paginated history dashboard",

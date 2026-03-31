@@ -23,6 +23,7 @@ export interface Project {
   techStack: string[];
   duration: string;
   githubUrl?: string;
+  websiteUrl?: string;
   demoUrl?: string;
   highlights: string[];
 }
