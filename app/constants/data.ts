@@ -180,7 +180,7 @@ export const PROJECTS: Project[] = [
       "Docker",
       "Tailwind CSS",
     ],
-    duration: "2026",
+    duration: "2026 - Present",
     githubUrl: "https://github.com/mhasammujahid",
     websiteUrl: "https://code-lens-five.vercel.app/",
     highlights: [
@@ -202,7 +202,7 @@ export const PROJECTS: Project[] = [
       "Docker",
       "Tailwind CSS",
     ],
-    duration: "2026",
+    duration: "2026 - Present",
     githubUrl: "https://github.com/mhasammujahid",
     websiteUrl: "https://shortify-pi-fawn.vercel.app/",
     highlights: [
