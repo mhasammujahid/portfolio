@@ -21,7 +21,7 @@ export const HERO = {
   tagline:
     "I build systems that scale — from zero to 50K+ daily users — with clean architecture, cloud-native integrations, and an obsession for performance.",
   email: "mhassammuj@gmail.com",
-  githubUrl: "https://github.com/mhasammujahid",
+  githubUrl: "https://github.com/mhassammujahid",
   linkedinUrl: "https://linkedin.com/in/mhassammujahid",
   resumeUrl: "/Muhammad_Hassam_Mujahid_Resume_3.pdf",
 };
@@ -130,7 +130,7 @@ export const PROJECTS: Project[] = [
       "Express.js",
     ],
     duration: "Feb 2025 – Present",
-    githubUrl: "https://github.com/mhasammujahid",
+    githubUrl: "https://github.com/mhassammujahid",
     websiteUrl: "https://lets-connect-ten.vercel.app/",
     highlights: [
       "Google Calendar API integration for real-time availability sync",
@@ -152,7 +152,7 @@ export const PROJECTS: Project[] = [
       "Geolocation",
     ],
     duration: "Sep 2022 – May 2023",
-    githubUrl: "https://github.com/mhasammujahid",
+    githubUrl: "https://github.com/mhassammujahid",
 
     websiteUrl: "",
     highlights: [
@@ -181,7 +181,7 @@ export const PROJECTS: Project[] = [
       "Tailwind CSS",
     ],
     duration: "2026 - Present",
-    githubUrl: "https://github.com/mhasammujahid",
+    githubUrl: "https://github.com/mhassammujahid",
     websiteUrl: "https://code-lens-five.vercel.app/",
     highlights: [
       "Auto-runs ESLint or Flake8 on the backend — no client-side tooling needed",
@@ -203,7 +203,7 @@ export const PROJECTS: Project[] = [
       "Tailwind CSS",
     ],
     duration: "2026 - Present",
-    githubUrl: "https://github.com/mhasammujahid",
+    githubUrl: "https://github.com/mhassammujahid",
     websiteUrl: "https://shortify-pi-fawn.vercel.app/",
     highlights: [
       "Custom slug support with conflict detection and a 409 error response",
